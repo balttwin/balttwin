@@ -1,0 +1,58 @@
+body{font-family: 微軟正黑體; height:3000px; }
+        .a{margin: 10px;}
+
+        
+        .name{padding-top: 5%;  color:#885C2E; margin-top:95px;}
+        hr{width: 92%; float: left; border-top:3px solid #885C2E;}
+        .me{margin: 0px auto; width: 74%; height: 550px; padding-left: 6%; background-color: #FAE9D5; }
+        .meimg{padding-top: 20px;  padding-left: 1%;}
+        .int{float: right; padding-right: 18%; padding-top: 25px; font-size: 21px; line-height: 50px;}
+        .meimg img {
+        padding-top: 160px;  padding-left: 1%;
+    position:absolute; top: 35%;
+    /* CSS3淡出淡入效果,1秒 */
+    -webkit-transition: opacity 1s ease-in-out;
+    -moz-transition: opacity 1s ease-in-out;
+    -o-transition: opacity 1s ease-in-out;
+    transition: opacity 1s ease-in-out;
+      }
+      .meimg img:nth-of-type(2):hover{
+    opacity:0; /*滑鼠滑入時，透明度變0*/
+        }
+        .learn{margin: 0px auto; width: 75%; height: 670px; padding-left: 5%; background-color: #EEE2D5; }
+        .ti{float: left;}
+        .learnimg{padding-top: 15px;  padding-left: 2%;}
+        .experience{margin: 0px auto; width: 75%; height: 320px; padding-left: 5%; background-color: #FAE9D5; line-height: 50px;}
+        .ex{padding-top:3%; font-size: 20px;}
+        .interest{margin: 0px auto; width: 75%; height: 1650px; padding-left: 5%; background-color: #EEE2D5; font-size: 18px;}
+        .like{padding-top:3%;}
+        .interest img{-webkit-filter:brightness(45%);}
+        .interest img:hover{-webkit-filter:brightness(100%)}
+        
+        .hope{margin: 0px auto; width: 75%; height: 380px; padding-left: 5%; background-color: #FAE9D5; }
+        .hop{line-height: 40px; padding-top: 30px; font-size: 18px; padding-right: 7%;}
+        
+        .photo{margin: 0px auto; width: 75%; height: 1280px; padding-left: 5%; background-color: #EEE2D5; }
+        .lp{columns: 2; padding-top: 25px; line-height: 50px; float: left; overflow:hidden;}
+        .lp img{transform:scale(1,1);transition: all 1s ease-out; opacity: 0.6;}
+        .life:hover{transform:scale(1.2,1.2); opacity: 1; }
+        
+        .side{float: right; position:fixed; right: 0; top: 80%; width: 8rem; margin-top: -2.5em; flex-direction: column; align-items: flex-start;}
+        .side ul{  list-style-type:none; }
+        .side li img{ right: 0; max-height: 60px;  }
+        footer{position: relative; top: -200px; width: 100%; height: 200px; background-color: #9B7766;}
+    .inf{position: center; color: ; line-height:100px; text-align:center;}
+
+    .logo{ max-height: 100px;  margin-top: 100px;}
+    nav{  float: right;  padding: 24px 60px;}
+    nav ul{  margin: 0;  list-style-type: none;}
+    nav li{  padding: 10px 20px;  float: left; }
+    .nav-container{ display: flex; justify-content: center; align-items: center; width: 100%; }
+    .logodiv{ height:200px; width:100px; }
+    header{ display:flex; flex-direction:row; }
+    .banner_img{ width:100%; height:400px; }
+    .pic{ margin-left: 30%; }
+    .pic img{ width:250px; height:250px; }
+    .card-body{ text-align:center; }
+
+    .main-content{ min-height: 100%; padding-top:0px; padding-bottom: 200px; }
